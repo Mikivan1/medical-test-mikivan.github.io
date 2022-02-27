@@ -21,6 +21,9 @@ body {
 a {
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+}
 
 /*-------------------------------------------Header */
 .header {
@@ -274,6 +277,7 @@ a {
     height: 100%;
     justify-content: center;
     align-items: center;
+    padding: 60px 0;
 }
 
 .contacts_form {
@@ -300,7 +304,7 @@ a {
 .contact__first_text {
     font-size: 36px;
     font-weight: bold;
-    margin: 40px 0;
+    margin-bottom: 40px;
     max-width: 100%;
 }
 .contact__submitbutton {
@@ -310,4 +314,35 @@ a {
     height: 40px;
     font-size: 16px;
     cursor: pointer;
+}
+/*------------------------------------------- footer */
+.footer {
+    background-color: rgb(7, 33, 53);
+    color: white;
+}
+.footer__container {
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer__block {
+    word-wrap: break-word;
+    color: rgba(241, 241,241, 0.7);
+}
+.footer__block li {
+    margin-bottom: 30px;
+}
+.footer__block li:nth-child(3) {
+    margin-bottom: 0px;
+}
+.footer__block_first {
+    width: 470px;
+}
+.footer__first_text {
+    color: rgba(241, 241,241, 1.0);
+    font-size: 18px;
+    font-weight: bold;
 }
